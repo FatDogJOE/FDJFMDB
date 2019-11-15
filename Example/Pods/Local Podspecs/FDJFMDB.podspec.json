@@ -1,0 +1,22 @@
+{
+  "name": "FDJFMDB",
+  "version": "0.1.0",
+  "summary": "A short description of FDJFMDB.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/likethephoenix@163.com/FDJFMDB",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "likethephoenix@163.com": "likethephoenix@163.com"
+  },
+  "source": {
+    "git": "https://github.com/likethephoenix@163.com/FDJFMDB.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FDJFMDB/Classes/**/*"
+}

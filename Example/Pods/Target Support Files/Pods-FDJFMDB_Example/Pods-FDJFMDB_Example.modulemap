@@ -1,0 +1,6 @@
+framework module Pods_FDJFMDB_Example {
+  umbrella header "Pods-FDJFMDB_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
