@@ -55,7 +55,7 @@
 
 - (NSString *)columeSQLValue:(NSString *)columeName {
     
-    FDJColume * colume = [[FDJDataModel table] columeWithName:columeName];
+    FDJColume * colume = [[self.class table] columeWithName:columeName];
     
     if (colume) {
         id value = [self valueForKeyPath:columeName];
@@ -67,7 +67,7 @@
 }
 
 + (NSString *)columeSQL:(NSString *)columeName value:(id)value {
-    FDJColume * colume = [[FDJDataModel table] columeWithName:columeName];
+    FDJColume * colume = [[self table] columeWithName:columeName];
     
     if (colume) {
         return [colume convertValue:value];
