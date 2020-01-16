@@ -45,7 +45,7 @@ FDJColume * colume = [FDJColume columeWithName:p1 constraints:set dataType:p3];\
 - (BOOL)haveConstraint:(NSString *)constraint;
 
 + (instancetype)columeWithName:(NSString *)name constraints:(NSSet<NSString *> *)constraints dataType:(FDJDataType)dataType;
-
++ (instancetype)columeWithName:(NSString *)name constraintsArr:(NSArray<NSString *> *)constraints dataType:(FDJDataType)dataType;
 @end
 
 NS_ASSUME_NONNULL_END

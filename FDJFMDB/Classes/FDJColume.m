@@ -35,6 +35,10 @@ NSString * _Nonnull const ColumeConstraintCheck = @"CHECK";
     return [[self alloc] initWithName:name constraints:constraints dataType:dataType];
 }
 
++ (instancetype)columeWithName:(NSString *)name constraintsArr:(NSArray<NSString *> *)constraints dataType:(FDJDataType)dataType {
+    return [[self alloc] initWithName:name constraints:[NSSet setWithArray:constraints] dataType:dataType];
+}
+
 - (instancetype)initWithName:(NSString *)name constraints:(NSSet<NSString *> *)constraints dataType:(FDJDataType)dataType {
     self = [super init];
     if (self) {
